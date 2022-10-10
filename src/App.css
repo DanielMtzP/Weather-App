@@ -11,6 +11,7 @@
 body{
     background-color: cadetblue;
     background-image: url(./assets/imgs/El-Clima-hoy.webp);
+    background-size: cover;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -39,6 +40,7 @@ body{
     font-family: inherit;
     font-size: 1.2rem;
     font-weight: 600;
+    border: solid 1px darkcyan;
 }
 .button:hover{
     color: deepskyblue;
