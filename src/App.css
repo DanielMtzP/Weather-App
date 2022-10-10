@@ -10,26 +10,38 @@
 
 body{
     background-color: cadetblue;
+    background-image: url(./assets/imgs/El-Clima-hoy.webp);
     font-family: 'Montserrat', sans-serif;
 }
 
 .App{
-    background-color: antiquewhite;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
     width: max-content;
     border-radius: 8px;
     position: relative;
-    left: 43vw;
-    top: 20vh;
+    left: 37vw;
+    top: 8vh;
     padding: 25px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 20px black;
 }
 .button{
-    background-color: aqua;
+    background-color: darkcyan;
     color: black;
     border-radius: 8px;
-    height: 30px;
-    width: 200px;
+    height: 50px;
+    width: 100%;
     margin-top: 15px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.button:hover{
+    color: deepskyblue;
 }
 .ul{
     list-style: none;
@@ -37,5 +49,32 @@ body{
     flex-direction: column;
     gap: 10px;
     margin: 15px 0px;
+    text-align: center;
+    font-weight: 900;
+}
+.weather_info{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.temperature{
+    text-align: center;
+    font-size: 2rem;
+    color: crimson;
+}
+.title{
+    margin-bottom: 10px;
+    text-align: center;
+    color: deepskyblue;
+}
+.city{
+    text-align: center;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+.icon_weater{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
